@@ -6,14 +6,14 @@
 }
 header {
   min-height: 100vh;
-  color: #e4cdcd;
+  color: #8f5757;
 }
 body {
   min-height: 100vh;
-  color: #e4cdcd;
+  color: #f09393;
 }
-.benefits {
-  background-color: #e4cdcd;
+.companyname {
+  background-color: #eeacac;
   padding: 107px 0 105px;
 }
 .container {
@@ -26,8 +26,9 @@ body {
 }
 .photo {
   text-align: center;
-  padding: 0 20px;
-  margin-right: 16px;
+  padding: 20px 20px;
+  margin-right: 10px;
+  
 }
 .photo:last-child {
   margin-right: 0;
@@ -35,11 +36,11 @@ body {
 .img-wrapper {
   width: 280px;
   height: 280px;
-  background-color: rgb(248, 168, 211);
+  background-color: rgb(247, 199, 225);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
   margin: 0 auto 45px;
 }
 .image {
