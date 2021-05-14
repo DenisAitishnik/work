@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 id="main">Registration form</h1>
+    <form action="">
+        <fieldset>
+            <legend>First Step</legend>
+            <label for="name">What is your name?</label>
+            <br>
+            <input type="text" name="registration_login" id="name">
+            <br>
+            <label for="email">Enter E-mail</label>
+            <br>
+            <input type="email" name="registration_email" id="email">
+            <br>
+            <label for="password">Create a password</label>
+            <br>
+            <input type="password" name="registration_password" id="password">
+            <br>
+            <label for="passwordConfirm">Confirm a password</label>
+            <br>
+            <input type="password" name="registration_password_confirm" id="passwordConfirm">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Second Step</legend>
+            <br>
+            <label for="position">Who you are?</label>
+            <br>
+            <br>
+            <select name="profession" id="position">
+                <option value="Man">Man</option>
+                <option value="Women">Women</option>
+                <option value="Delfin">Delfin</option>
+                <option hidden disabled selected>Choose one</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Years experience</legend>
+                <input type="radio" name="experience" id="exp1" value="<1">
+                <label for="exp1">Less than 1</label>
+                <br>
+                <input type="radio" name="experience" id="exp2" value="1-3">
+                <label for="exp2">1-3</label>
+                <br>
+                <input type="radio" name="experience" id="exp3" value="3-5">
+                <label for="exp3">3-5</label>
+                <br>
+                <input type="radio" name="experience" id="exp4" value="5">
+                <label for="exp4">More than 5</label>
+            </fieldset>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Third step</legend>
+            <label for="Birth">Enater Birth date</label>
+            <br>
+            <input type="date" name="birthdate" id="Birth">
+            <br>
+            <label for="about">Tell about yourself</label>
+            <br>
+            <textarea name="aboutMessage" id="about" cols="200" rows="3"></textarea>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="conditions" id="agree">
+        <label for="agree">I agree to the <a href="#">Privace policy</a> and <a href="#">Conditions</a></label>
+        <br>
+        <br>
+        <input type="submit" value="Registration">
+    </form>
+</body>
+
+</html>

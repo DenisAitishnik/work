@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Vote for US!</h1>
+    <form action="">
+        <fieldset>
+            <legend>Information</legend>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="registration_login" id="name">
+            <br>
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" name="registration_email" id="email">
+            <br>
+            <label for="password">Create a password</label>
+            <br>
+            <input type="password" name="registration_password" id="password">
+            <br>
+            <label for="passwordConfirm">Confirm Password</label>
+            <br>
+            <input type="password" name="registration_passwordConfirm" id="passwordConfirm">
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Vote For</legend>
+            <br>
+            <label for="position">Vote:</label>
+            <br>
+            <select name="candidat" id="position">
+                <option value="Joe_Biden">Joe Biden</option>
+                <option value="Donald_Trump">Donald Trump</option>
+                <option value="Hilari_Clinton">Hilari Clinton</option>
+                <option hidden disabled selected>Choose One</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Candidats:</legend>
+                <br>
+                <input type="radio" name="experience" id="exp1" value="1">
+                <label for="exp1">Joe Biden</label>
+                <br>
+                <br>
+                <input type="radio" name="experience" id="exp2" value="2">
+                <label for="exp2">Donald Trump</label>
+                <br>
+                <br>
+                <input type="radio" name="experience" id="exp3" value="3">
+                <label for="exp3">Hilari Clinton</label>
+                <br>
+                <br>
+            </fieldset>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <label for="birth">Birth Date</label>
+            <br>
+            <input type="date" name="dateBirth" id="birth">
+            <br>
+            <br>
+            <label for="about">About Yourself</label>
+            <br>
+            <textarea name="aboutMessage" id="about" cols="220" rows="4"></textarea>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="conditions" id="agree">
+        <label for="agree">I agree to the <a href="#">Privacy policy</a> <a href="#">Terms of use</a> </label>
+        <br>
+        <input type="submit" value="submit registration">
+</body>
+
+</html>
