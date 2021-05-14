@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  min-height: 100vh;
+  color: #ffffff;
+}
+.benefits {
+  background-color: #1d1c1c;
+  padding: 107px 0 105px;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.cards {
+  display: flex;
+  list-style: none;
+}
+.card {
+  text-align: center;
+  padding: 0 20px;
+  margin-right: 16px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.img-wrapper {
+  width: 81px;
+  height: 81px;
+  background-color: #ffae00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px 0 12px 0;
+  margin: 0 auto 45px;
+}
+.image {
+  width: 38px;
+}
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.5;
+}
