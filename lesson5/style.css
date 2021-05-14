@@ -14,7 +14,7 @@ body {
 }
 .companyname {
   background-color: #eeacac;
-  padding: 107px 0 105px;
+  padding: 40px 0 40px;
 }
 .container {
   max-width: 1140px;
@@ -26,25 +26,25 @@ body {
 }
 .photo {
   text-align: center;
-  padding: 20px 20px;
+  padding: 30px 30px;
   margin-right: 10px;
-  
 }
 .photo:last-child {
   margin-right: 0;
 }
 .img-wrapper {
-  width: 280px;
-  height: 280px;
+  width: 180px;
+  height: 180px;
   background-color: rgb(247, 199, 225);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  margin: 0 auto 45px;
+  margin: 0 auto 15px;
 }
 .image {
-  width: 260px;
+  width: 160px;
+  border-radius: 20px;
 }
 .title {
   font-size: 24px;
@@ -54,4 +54,7 @@ body {
 .text {
   font-size: 14px;
   line-height: 1.5;
+}
+.photos {
+  justify-content: center;
 }
