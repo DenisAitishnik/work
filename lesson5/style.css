@@ -5,19 +5,14 @@
   font-size: 100%;
 }
 header {
-  min-height: 100vh;
   color: #f8f1f1;
-  background-color: #8f5757;
+  background-color: #6e2d2d;
   font-size: 24px;
   text-transform: uppercase;
 }
 body {
   min-height: 100vh;
   color: #f09393;
-}
-.companyname {
-  background-color: #eeacac;
-  padding: 40px 0 40px;
 }
 .container {
   max-width: 1140px;
@@ -80,8 +75,9 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   font-style: normal;
-  line-height: 1.6;
+  line-height: 1.8;
   box-sizing: border-box;
   text-align: center;
   color: aliceblue;
 }
+
