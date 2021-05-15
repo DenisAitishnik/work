@@ -6,7 +6,10 @@
 }
 header {
   min-height: 100vh;
-  color: #8f5757;
+  color: #f8f1f1;
+  background-color: #8f5757;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 body {
   min-height: 100vh;
@@ -43,7 +46,7 @@ body {
   margin: 0 auto 15px;
 }
 .image {
-  width: 160px;
+  width: 170px;
   border-radius: 20px;
 }
 .title {
@@ -57,4 +60,28 @@ body {
 }
 .photos {
   justify-content: center;
+}
+.intro {
+  background-color: rgb(226, 116, 116);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.6;
+  box-sizing: border-box;
+  text-align: center;
+}
+.main {
+  min-height: 100vh;
+  background-color: #f09393;
+}
+.text-main {
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.6;
+  box-sizing: border-box;
+  text-align: center;
+  color: aliceblue;
 }
