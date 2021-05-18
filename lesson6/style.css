@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+div {
+  background-color: red;
+}
+span {
+  background-color: yellow;
+  width: 400px;
+}
+p {
+  background-color: green;
+}
+h1 {
+  background-color: blue;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  display:inline-block;
+  border-radius: 50%;
+  margin-left: 40px;
+  
+}

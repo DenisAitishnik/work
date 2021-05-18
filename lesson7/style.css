@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 24px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+li {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  order: 2;
+}
+li:first-child {
+  background-color: green;
+  height: 200px;
+  order: 1;
+}
+li:nth-child(2) {
+  background-color: blue;
+  height: 50px;
+  order: 0;
+}
+li:last-child {
+  background-color: purple;
+  height: 250px;
+}
