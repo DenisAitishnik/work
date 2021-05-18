@@ -6,12 +6,12 @@
 }
 header {
   color: #f8f1f1;
-  background-color: #6e2d2d;
   font-size: 24px;
   text-align: center;
 }
 body {
   min-height: 100vh;
+  background-color: #6e2d2d;
 }
 .container {
   max-width: 1140px;
@@ -90,7 +90,6 @@ body {
   margin-right: 0px;
 }
 footer{
-  background-color: #6e2d2d;
   color: #f8f1f1;
   font-size: 12px;
   text-transform: uppercase;
