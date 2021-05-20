@@ -21,21 +21,22 @@ body {
 .shoping-list {
   list-style: none;
   width: 1000px;
+  margin-left: 25%;
 }
 
 .shoping-list-item:nth-child(odd) {
   background-color: #8a8ba7;
-  
 }
 .shoping-list-item:nth-child(even) {
   background-color: #7a7593;
 }
 
 .shoping-list-item:hover {
-  background: #625E77;
+  background: #625e77;
   color: #fff;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
+  border-bottom: 4px solid white;
+  border-top: 4px solid white;
+  padding: 8px;
 }
 
 .shoping-list-label {
