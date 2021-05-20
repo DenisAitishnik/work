@@ -23,16 +23,19 @@ body {
   width: 1000px;
 }
 
-.shoping-list-item:hover {
-  background: #f3bd48;
-  color: #fff;
-}
-
 .shoping-list-item:nth-child(odd) {
   background-color: #8a8ba7;
+  
 }
 .shoping-list-item:nth-child(even) {
   background-color: #7a7593;
+}
+
+.shoping-list-item:hover {
+  background: #625E77;
+  color: #fff;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
 }
 
 .shoping-list-label {
