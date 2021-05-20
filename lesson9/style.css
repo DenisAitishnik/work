@@ -1,0 +1,47 @@
+:root {
+  --padding: 48px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c3c3c3;
+  padding: var(--padding);
+  min-height: 200vh;
+}
+.block {
+  background-color: white;
+  width: calc(100vw - var(--padding) * 2);
+  height: calc(100vh - var(--padding) * 2);
+  border-radius: 12px;
+  
+}
+.test {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  border-radius: 6px;
+  position: relative;
+}
+.test-child {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 4px;
+  position;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.test-child-second {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 4px;
+  z-index: 1;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
