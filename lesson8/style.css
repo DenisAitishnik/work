@@ -83,7 +83,7 @@ input[type="checkbox"]:checked ~ span {
   text-decoration: line-through;
   border-color: #DEDEDE;
   text-decoration-color:#a2a0b5;
-  
+  color:#a2a0b5;
 }
 input[type="checkbox"]:checked ~ span > img {
   display: initial;
