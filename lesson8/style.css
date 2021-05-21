@@ -17,13 +17,11 @@ body {
 }
 .form {
   padding: 60px;
-  
 }
 .shoping-list {
   list-style: none;
   width: 1000px;
   margin: auto;
-  
 }
 
 .shoping-list-item:nth-child(odd) {
@@ -40,23 +38,56 @@ body {
   color: #fff;
   border-bottom: 4px solid white;
   border-top: 4px solid white;
-  
+
 }
 
 .shoping-list-label {
   display: flex;
   align-items: center;
   padding: 26px 16px;
-  
 }
+
 .img {
   width: 20px;
 }
 .shoping-list-text {
   font-size: 24px;
   color: white;
-  
 }
 .shoping-list-text > span {
-  font-size: 14px;
+  font-size: 16px;
+
+  
+}
+
+.сheck-input {
+  display: none;
+
+}
+.check-box {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #DEDEDE;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25em;
+  margin-right: 10px;
+}
+.check-box > img {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+input[type="checkbox"]:checked ~ span {
+  text-decoration: line-through;
+  border-color: #DEDEDE;
+  text-decoration-color:#a2a0b5;
+  
+}
+input[type="checkbox"]:checked ~ span > img {
+  display: initial;
+}
+.color-text2{
+  color: #b9bad8;
 }
