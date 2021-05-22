@@ -89,8 +89,7 @@ input[type="checkbox"]:checked ~ span > img {
 }
 
 button {
-  margin: 50px;
-  
+  margin: 40px 0 0 200px;
 }
 
 .button-style {
@@ -106,6 +105,4 @@ button {
 .button-style:hover {
   background-color: #625e77;
   color: white;
-  display: block;
-  box-sizing: border-box;
 }
