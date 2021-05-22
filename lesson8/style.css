@@ -38,7 +38,6 @@ body {
   color: #fff;
   border-bottom: 4px solid white;
   border-top: 4px solid white;
-
 }
 
 .shoping-list-label {
@@ -56,18 +55,15 @@ body {
 }
 .shoping-list-text > span {
   font-size: 16px;
-
-  
 }
 
 .сheck-input {
   display: none;
-
 }
 .check-box {
   width: 20px;
   height: 20px;
-  border: 2px solid #DEDEDE;
+  border: 2px solid #dedede;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -81,13 +77,35 @@ body {
 }
 input[type="checkbox"]:checked ~ span {
   text-decoration: line-through;
-  border-color: #DEDEDE;
-  text-decoration-color:#a2a0b5;
-  color:#a2a0b5;
+  border-color: #dedede;
+  text-decoration-color: #a2a0b5;
+  color: #a2a0b5;
 }
 input[type="checkbox"]:checked ~ span > img {
   display: initial;
 }
-.color-text2{
+.color-text2 {
   color: #b9bad8;
+}
+
+button {
+  margin: 50px;
+  
+}
+
+.button-style {
+  background-color: #4a4f56;
+  border: none;
+  color: #eb7d79;
+  padding: 20px 20px;
+  font-size: 24px;
+  list-style: none;
+  width: 1000px;
+  
+}
+.button-style:hover {
+  background-color: #625e77;
+  color: white;
+  display: block;
+  box-sizing: border-box;
 }
