@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+:root {
+  --main-font: "Lato", sans-serif;
+  --body-bg: #bac5db;
+  --form-bg: #353a45;
+  --blue-color: #538fff;
+  --gery-color: #787d87;
+  --placeholder-color: #a9a9a9;
+  --white-color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 100%;
+  min-height: 100vh;
+  font-family: var(--main-font);
+  background-color: var(--body-bg);
+}
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form-section__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 666px;
+  height: 383px;
+  box-shadow: 0 26px 49px rgba(35, 70, 133, 0.28);
+  border-radius: 24px;
+  background-color: var(--form-bg);
+}
+.form-section__wrapper {
+  transform: translateY(-45%);
+  width: 92px;
+  height: 92px;
+  box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.13);
+  background-color: #000000;
+  background-image: linear-gradient(59deg, #47aae6 0%, #9372bf 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.form-section__wrapper:before {
+  content: "";
+  width: 74px;
+  height: 74px;
+  border: 3px solid var(--white-color);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.form-section__icon {
+  width: 43px;
+  height: 32px;
+}
+.form-section__title {
+  margin-top: -15px;
+  color: var(--blue-color);
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+.form-section__text {
+  margin-top: 31px;
+  white-space: nowrap;
+  color: #ffffff;
+  font-style: normal;
+  font-family: var(--main-font);
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+.form-section__form {
+}
+
+input {
+  margin-top: 40px;
+  width: 371px;
+  height: 52px;
+  box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: var(--white-color);
+  border: 1px solid #c4c4c4;
+}
+
+.form-section__input {
+  color: var(--gery-color);
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  padding: 10px;
+}
+.form-section__button {
+  width: 161px;
+  height: 52px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--blue-color);
+  margin-left: 13px;
+  color: #ffffff;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 3px;
+  text-align: center;
+  cursor: pointer;
+  transition: color 1s;
+}
+.form-section__button:active {
+  color: var(--form-bg);
+}
+
+.form-section__info {
+  margin-top: 37px;
+  color: var(--placeholder-color);
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: normal;
+  text-align: center;
+}
