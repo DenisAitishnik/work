@@ -7,6 +7,8 @@
   --gery-color: #787d87;
   --placeholder-color: #a9a9a9;
   --white-color: #fff;
+  --black-color: #000;
+  --input-border-color:#c4c4c4;
 }
 * {
   margin: 0;
@@ -26,17 +28,23 @@ body {
   min-height: 100vh;
 }
 .form-section__card {
+  padding: 82px 60px 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 666px;
-  height: 383px;
+  width: 100%;
+  max-width: 666px;
+  /* max-height: 383px; */
   box-shadow: 0 26px 49px rgba(35, 70, 133, 0.28);
   border-radius: 24px;
   background-color: var(--form-bg);
+  position: relative;
 }
 .form-section__wrapper {
-  transform: translateY(-45%);
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
+  position: absolute;
   width: 92px;
   height: 92px;
   box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.13);
@@ -46,7 +54,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 .form-section__wrapper:before {
   content: "";
@@ -62,67 +69,63 @@ body {
   height: 32px;
 }
 .form-section__title {
-  margin-top: -15px;
+  line-height: 1;
+  /* margin-top: -15px; */
   color: var(--blue-color);
   font-size: 48px;
-  line-height: 48px;
-  text-align: center;
+  margin-bottom: 30px;
 }
 .form-section__text {
-  margin-top: 31px;
   white-space: nowrap;
-  color: #ffffff;
-  font-style: normal;
+  color: var(--white-color);
   font-family: var(--main-font);
   font-size: 22px;
-  font-weight: 400;
-  text-align: center;
+  margin-bottom: 40px;
 }
 .form-section__form {
+  margin-bottom: 36px;
+  display: flex;
+  width: 100%;
 }
 
-input {
-  margin-top: 40px;
-  width: 371px;
+.form-section__input {
+  color: var(--black-color);
+  font-family: var(--main-font);
+  font-size: 20px;
+  padding: 18px 16px 20px;
+  max-width: 371px;
+  width: 100%;
   height: 52px;
   box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   background-color: var(--white-color);
-  border: 1px solid #c4c4c4;
-}
-
-.form-section__input {
-  color: var(--gery-color);
-  font-family: var(--main-font);
-  font-size: 20px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  padding: 10px;
+  border: 1px solid var(--input-border-color);
+  margin-right: 12px;
 }
 .form-section__button {
+  padding: 16px 26px 20px;
   width: 161px;
   height: 52px;
   border-radius: 10px;
   border: none;
   background-color: var(--blue-color);
-  margin-left: 13px;
-  color: #ffffff;
+  color: var(--white-color);
   font-family: var(--main-font);
   font-size: 18px;
   font-weight: 700;
-  font-style: normal;
   letter-spacing: 3px;
   text-align: center;
   cursor: pointer;
-  transition: color 1s;
+  transition: color 0.3s ease;
+}
+.form-section__button:hover{
+  color: var(--black-color);
 }
 .form-section__button:active {
   color: var(--form-bg);
 }
 
 .form-section__info {
-  margin-top: 37px;
   color: var(--placeholder-color);
   font-family: var(--main-font);
   font-size: 20px;
