@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3399cc;
+  border: 10px solid #2b81ac;
+}
+
+.h1-text {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.weather-form{
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+}
+
+.weather-form li {
+  display: inline-block;
+  border: 4px solid #fff;
+  font-size: 24px;
+  text-align: center;
+}
+.list1 {
+}
+.list2 {
+}
+.list3 {
+}
+.list4 {
+}
+.list5 {
+}
+.list6 {
+}
+.list7 {
+}
+.list8 {
+}
+.list9 {
+}
+.list10 {
+}
+.list10 {
+  }
+.list11{
+}
