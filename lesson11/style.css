@@ -10,43 +10,76 @@ body {
 
 .h1-text {
   font-size: 24px;
+  text-align: left;
+  color: white;
+}
+
+.weather-form {
+  list-style: none;
   text-align: center;
-  margin-bottom: 40px;
+  font-size: 0;
+  max-width: 100%;
+  color: white;
 }
 
-.weather-form{
-    list-style: none;
-    text-align: center;
-    font-size: 0;
-}
-
-.weather-form li {
+.list-item {
   display: inline-block;
   border: 4px solid #fff;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
+  height: 100px;
 }
-.list1 {
+
+.list-item > span {
 }
-.list2 {
+
+.lisabon-item {
+  background-color: #3399cc;
+  width: 50%;
 }
-.list3 {
+
+.paris-item {
+  background-color: #33cccc;
+  width: 25%;
 }
-.list4 {
+.belgrad-item {
+  background-color: #996699;
+  width: 25%;
 }
-.list5 {
+.moscow-item {
+  width: 25%;
+  background-color: #c24747;
 }
-.list6 {
+.telaviv-item {
+  width: 25%;
+  background-color: #e2674a;
 }
-.list7 {
+.cair-item {
+  width: 25%;
+  background-color: #ffcc66;
 }
-.list8 {
+.newyork-item {
+  width: 25%;
+  background-color: #99cc99;
 }
-.list9 {
+.newdelhi-item {
+  width: 25%;
+  background-color: #669999;
 }
-.list10 {
+.sanfrancisco-item {
+  width: 50%;
+  background-color: #cc6699;
 }
-.list10 {
-  }
-.list11{
+.tokyo-item {
+  width: 25%;
+  background-color: #339966;
+}
+.sydney-item {
+  width: 100%;
+  background-color: #666699;
+}
+.h3-text {
+  font-size: 18px;
+  text-align: left;
+  color: white;
 }
