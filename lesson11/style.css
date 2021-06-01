@@ -5,7 +5,7 @@
 }
 body {
   background-color: #3399cc;
-  border: 10px solid #2b81ac;
+  border: 20px solid #2b81ac;
 }
 .container {
   width: 100%;
@@ -27,12 +27,12 @@ body {
   width: 100%;
   color: white;
   margin-bottom: 20px;
-  border: 2px solid #fff;
+  border: 4px solid #fff;
 }
 
 .list-item {
   display: inline-block;
-  
+
   font-size: 20px;
   text-align: center;
   height: 100px;
@@ -46,74 +46,58 @@ body {
   color: #fff;
   opacity: 0.5;
 }
+.border-one {
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+.border-second {
+  border-bottom: 4px solid #fff;
+}
+.width-one {
+  width: 50%;
+}
+.width-second {
+  width: 25%;
+}
 
 .lisabon-item {
   background-color: #3399cc;
-  width: 50%;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
-
 }
 
 .paris-item {
   background-color: #33cccc;
-  width: 25%;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
 }
 .belgrad-item {
   background-color: #996699;
-  width: 25%;
-  border-bottom: 2px solid #fff;
 }
 .moscow-item {
-  width: 25%;
   background-color: #c24747;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
 }
 .telaviv-item {
-  width: 25%;
   background-color: #e2674a;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
 }
 .cair-item {
-  width: 25%;
   background-color: #ffcc66;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
-  
 }
 .newyork-item {
-  width: 25%;
   background-color: #99cc99;
-  border-bottom: 2px solid #fff;
 }
 .newdelhi-item {
-  width: 25%;
   background-color: #669999;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
 }
 .sanfrancisco-item {
-  width: 50%;
   background-color: #cc6699;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
 }
 .tokyo-item {
-  width: 25%;
   background-color: #339966;
-  border-bottom: 2px solid #fff;
 }
 .sydney-item {
   width: 100%;
   background-color: #666699;
 }
 .h5-text {
-    margin-bottom: 20px;
-    display: block;
+  margin-bottom: 20px;
+  display: block;
   font-size: 14px;
   text-align: left;
   color: white;
