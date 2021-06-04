@@ -9,14 +9,16 @@
 }
 body {
   background-color: var(--background-color);
+  height: 100%;
+  width: 100%;
 }
 .blog {
-  font-family: "Noto Sans KR", sans-serif;
 }
 .container {
   width: 100%;
   max-width: 1120px;
   margin: auto;
+  padding: 20px;
 }
 .gallery {
   display: flex;
@@ -39,12 +41,12 @@ body {
   justify-content: flex-end;
 }
 
-.gallery-card {
+.gallery-card-first {
   position: relative;
   height: 100%;
   min-height: 540px;
 }
-.gallery-img {
+.gallery-img-first {
   position: absolute;
   left: 0;
   right: 0;
@@ -56,12 +58,66 @@ body {
   z-index: 0;
 }
 
-.text-title {
+.gallery-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 360px;
+  height: 100%;
+  /* min-height: 540px; */
 }
-.text-date {
+.gallery-image {
+  width: 100%;
+  max-width: 360px;
+  margin-bottom: 28px;
+}
+.gallery-image.four-image {
+  margin-bottom: 62px;
+}
+
+.img-wrapper {
+  /* margin: 0 278px 26px 28px; */
+  /* padding: 28px; */
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+.text-title-first {
+  margin: 440px 264px 40px 46px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+  text-transform: uppercase;
+}
+.text-date-first {
+  width: 100%;
+  margin: 404px 562px 123px 46px;
   opacity: 0.5;
   color: #ffffff;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.33px;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 3;
+}
+.text-date {
+  margin: 0px 200px 20px 28px;
+  opacity: 0.5;
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text-title {
+  margin: 0px 26px 70px 28px;
+  color: #1d1d1d;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+}
+.text-title.text-title-four{
+  margin: 0 32px 70px 28px;
 }
