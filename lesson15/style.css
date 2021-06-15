@@ -73,12 +73,6 @@ body {
 }
 
 .card-first {
-  /* display: none; */
 }
-.image-hover:hover {
-  /* background-color: #2ca8c6; */
-  /* opacity: 0; */
-}
-.image-hover:hover::before{
-    background-color: #2ca8c6;
-} 
+/* .image-hover:hover {
+} */
