@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3e3dd;
+}
+.section {
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  font-family: Lato;
+}
+.title {
+  text-align: center;
+}
+
+.title > h1 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.rectangle {
+  width: 45px;
+  height: 4px;
+  background-color: #dddbdb;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.title > h4 {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+}
+.list-item {
+  flex: 1 1 calc(100% / 4);
+  max-width: calc(100% / 4);
+  padding: 20px;
+}
+.card {
+}
+.gallery-image {
+  width: 100%;
+  max-width: 269px;
+  margin-bottom: 20px;
+  display: block;
+}
+.text-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.text-info {
+  font-size: 14px;
+  font-weight: 300;
+  color: #646464;
+}
+
+.card-first {
+  /* display: none; */
+}
+.image-hover:hover {
+  /* background-color: #2ca8c6; */
+  /* opacity: 0; */
+}
+.image-hover:hover::before{
+    background-color: #2ca8c6;
+} 
