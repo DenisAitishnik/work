@@ -56,11 +56,18 @@ body {
 }
 .card {
 }
+.image-wrapper {
+  position: relative;
+  height: 268px;
+  margin-bottom: 20px;
+}
 .gallery-image {
   width: 100%;
-  max-width: 269px;
-  margin-bottom: 20px;
-  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .text-title {
   font-size: 18px;
@@ -76,3 +83,11 @@ body {
 }
 /* .image-hover:hover {
 } */
+
+.image-hover {
+  background-color: #2ca8c6;
+}
+.image-hover:checked {
+  background-color: #2ca8c6;
+  display: none;
+}
