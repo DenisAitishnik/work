@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.form-section {
+  background-color: #e5eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form-section__card {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(2, 41, 120, 0.1);
+  background-color: #166a6a;
+  background-image: linear-gradient(32deg, #3023ae 0%, #c86dd7 100%);
+  padding: 52px 70px 60px;
+}
+.form-section__navigation {
+  display: flex;
+  margin-bottom: 56px;
+  position: relative;
+}
+.form-section__navigation-link {
+  transition: color 0.3s ease;
+  color: #e1c2f1;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 26px;
+  text-decoration: none;
+}
+.form-section__navigation-link:hover {
+  color: #fbf6e4;
+}
+.form-section__navigation-link:last-child {
+  margin-right: 0;
+}
+.form-section__navigation-link._active {
+  border-bottom: 2px solid #e66a64;
+  color: #fbf6e4;
+}
+.form-section__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  position: relative;
+}
+.form-section__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+.form-section__label {
+  color: #fbf6e4;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.form-section__input {
+  transition: border-color 0.3s ease;
+  width: 100%;
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  background-color: transparent;
+  height: 42px;
+  color: white;
+  outline: none;
+  padding: 0 10px;
+}
+.form-section__input:focus {
+  border-color: #23ae92;
+}
+.form-section__checkbox-wrraper {
+  margin-bottom: 40px;
+}
+.form-section__checkbox {
+  display: none;
+}
+.form-section__checkbox-castom {
+  background-color: #23ae92;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+.form-section__checkbox-castom > img {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.form-section__checkbox:checked ~ span > img {
+  display: initial;
+}
+.form-section__checkbox-label {
+  color: #d2c6d8;
+  font-size: 13px;
+  font-weight: 700;
+}
+.form-section__card-footer {
+  position: relative;
+}
+
+/*# sourceMappingURL=style.css.map */

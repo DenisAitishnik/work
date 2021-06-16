@@ -17,6 +17,9 @@ body {
 }
 .container {
   font-family: Lato;
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
 }
 .title {
   text-align: center;
@@ -56,12 +59,16 @@ body {
 }
 .card {
 }
+.card:hover .image-hover {
+  display: block;
+}
 .image-wrapper {
   position: relative;
   height: 268px;
   margin-bottom: 20px;
 }
 .gallery-image {
+    z-index: 1;
   width: 100%;
   position: absolute;
   top: 0;
@@ -79,15 +86,13 @@ body {
   color: #646464;
 }
 
-.card-first {
-}
-/* .image-hover:hover {
-} */
-
 .image-hover {
   background-color: #2ca8c6;
-}
-.image-hover:checked {
-  background-color: #2ca8c6;
   display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
 }
