@@ -107,7 +107,18 @@ body {
     font-weight: 700;
   }
   &__submit-btn {
+    background-color: #23ae92;
+    border: none;
+    height: 42px;
+    color: #fbf6e4;
+    font-weight: 700;
+    font-size: 18px;
   }
+  
+  &__submit-btn:active {
+    transition: border-color 0.3s ease;
+  }
+
   &__card-footer {
     position: relative;
   }

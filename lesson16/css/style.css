@@ -106,6 +106,17 @@ body {
   font-size: 13px;
   font-weight: 700;
 }
+.form-section__submit-btn {
+  background-color: #23ae92;
+  border: none;
+  height: 42px;
+  color: #fbf6e4;
+  font-weight: 700;
+  font-size: 18px;
+}
+.form-section__submit-btn:active {
+  transition: border-color 0.3s ease;
+}
 .form-section__card-footer {
   position: relative;
 }
