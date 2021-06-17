@@ -81,7 +81,7 @@ body {
   &__checkbox {
     display: none;
   }
-  &__checkbox-castom {
+  &__checkbox-custom {
     background-color: #23ae92;
     width: 16px;
     height: 16px;
@@ -90,16 +90,10 @@ body {
     align-items: center;
     margin-right: 6px;
   }
- 
-  &__checkbox-castom > img {
-    width: 16px;
-    height: 16px;
-    display: none;
+  &__checkbox-img {
+    width: 10px;
+    height: 8px;
   }
-  &__checkbox:checked ~ span > img {
-      display: initial;
-  }
-
 
   &__checkbox-label {
     color: #d2c6d8;
@@ -114,8 +108,9 @@ body {
     font-weight: 700;
     font-size: 18px;
   }
-  
+
   &__submit-btn:active {
+    border-color: 2px solid white;
     transition: border-color 0.3s ease;
   }
 
