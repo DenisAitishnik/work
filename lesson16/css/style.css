@@ -80,9 +80,14 @@ body {
 }
 .form-section__checkbox-wrraper {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
 }
 .form-section__checkbox {
   display: none;
+}
+.form-section__checkbox:checked ~ .form-section__checkbox-custom > .form-section__checkbox-img {
+  display: initial;
 }
 .form-section__checkbox-custom {
   background-color: #23ae92;
@@ -96,6 +101,7 @@ body {
 .form-section__checkbox-img {
   width: 10px;
   height: 8px;
+  display: none;
 }
 .form-section__checkbox-label {
   color: #d2c6d8;
@@ -111,7 +117,7 @@ body {
   font-size: 18px;
 }
 .form-section__submit-btn:active {
-  border-color: 2px solid white;
+  border: 2px solid white;
   transition: border-color 0.3s ease;
 }
 .form-section__card-footer {
